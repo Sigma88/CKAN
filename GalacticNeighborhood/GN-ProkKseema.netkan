@@ -4,7 +4,7 @@
     "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
     "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Prok-Kseema Star System",
-    "abstract"           : "The closest star system to the Sun.",
+    "abstract"           : "Galactic Neighborhood: Prok-Kseema Star System\n\nThe closest star system to the Sun.",
     "license"            : "restricted",
     "author"             : "Sigma88",
     "resources"          :
