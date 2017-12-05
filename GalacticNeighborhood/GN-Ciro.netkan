@@ -4,7 +4,7 @@
     "$kref"              : "#/ckan/github/Galileo88/Galileos-Planet-Pack",
     "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Ciro Star System",
-    "abstract"           : "A G5 V main sequence yellow dwarf. This star hosts Galileo's Planet Pack.",
+    "abstract"           : "Galactic Neighborhood: Ciro Star System\n\nA G5 V main sequence yellow dwarf.\nThis star hosts Galileo's Planet Pack.",
     "license"            : "CC-BY-NC-ND",
     "author"             : "Galileo88",
     "resources"          :
@@ -21,28 +21,28 @@
         {
             "find"       : "GPP",
             "install_to" : "GameData",
-			"filter"     :
-			[
-				"Agencies",
-				"GPP_Configs",
-				"GPP_KSC++",
-				"GPP_Renamer",
-				"GPP_Replacements",
-				"GPP_Resources",
-				"GPP_Scatterer",
-				"GPP_Skybox",
-				"GPP_SuitProgression",
-				"GPP_WaterLaunch",
-				"GPP_Skybox",
-				"LoadingScreens",
-				"GPP_KSPedia.ksp",
-				"MiniAVC.dll"
-			]
+            "filter"     :
+            [
+                "Agencies",
+                "GPP_Configs",
+                "GPP_KSC++",
+                "GPP_Renamer",
+                "GPP_Replacements",
+                "GPP_Resources",
+                "GPP_Scatterer",
+                "GPP_Skybox",
+                "GPP_SuitProgression",
+                "GPP_WaterLaunch",
+                "GPP_Skybox",
+                "LoadingScreens",
+                "GPP_KSPedia.ksp",
+                "MiniAVC.dll"
+            ]
         },
-		{
-			"find"       : "GPP/GPP_Configs/GPP_KopernicusSettings.cfg",
-			"install_to" : "GameData/GPP/GPP_Configs",
-			"find_matches_files" : true
-		}
+        {
+            "find"       : "GPP/GPP_Configs/GPP_KopernicusSettings.cfg",
+            "install_to" : "GameData/GPP/GPP_Configs",
+            "find_matches_files" : true
+        }
     ]
 }
