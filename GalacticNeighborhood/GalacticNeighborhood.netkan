@@ -1,0 +1,48 @@
+{
+    "spec_version"       : "v1.4",
+    "identifier"         : "GalacticNeighborhood",
+    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
+    "$vref"              : "#/ckan/ksp-avc",
+    "name"               : "[GN] Galactic Neighborhood",
+    "abstract"           : "Allows to explore the galactic neighborhood of the Kerbal sun.",
+    "license"            : "restricted",
+    "author"             : "Sigma88",
+    "resources"          :
+    {
+        "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
+    },
+    "conflicts"          :
+    [
+        { "name"         : "Kopernicus" },
+        { "name"         : "Scatterer" },
+        { "name"         : "LoadingScreenManager" },
+        { "name"         : "EnvironmentalVisualEnhancements" }
+    ],
+    "depends"            :
+    [
+        { "name"         : "ModuleManager" },
+        { "name"         : "ModularFlightIntegrator" },
+        { "name"         : "GN-Requirements" }
+    ],
+    "recommends"         :
+    [
+        { "name"         : "GN-Algok" },
+        { "name"         : "GN-Kpol" },
+        { "name"         : "GN-Kstor" },
+        { "name"         : "GN-MKel" },
+        { "name"         : "GN-ProkKseema" },
+        { "name"         : "GN-Binary" }
+    ],
+    "suggests"           :
+    [
+        { "name"         : "GN-Ciro" }
+    ],
+    "install"            :
+    [
+        {
+            "find"       : "GalacticNeighborhood",
+            "install_to" : "GameData",
+            "filter"     : "StarSystems"
+        }
+    ]
+}
