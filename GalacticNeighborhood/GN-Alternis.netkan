@@ -1,0 +1,26 @@
+{
+    "spec_version"       : "v1.4",
+    "identifier"         : "GN-Alternis",
+    "name"               : "[GN] Alternis Star System",
+    "abstract"           : "Galactic Neighborhood: Alternis Star System\n\nA K0 V main sequence orange dwarf.\nThis star hosts Alternis Kerbol Rekerjiggered.",
+    "author"             : "GregroxMun",
+    "license"            : "CC-BY-NC-4.0",
+    "version"            : "2.2.0",
+    "ksp_version"        : "any",
+    "download"           : "https://github.com/GregroxMun/Alternis-Kerbol-Rekerjiggered/releases/download/2.2/AlternisKerbolRekerjiggered2.2.0.zip",
+    "resources"          :
+    {
+        "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
+    },
+    "depends"            :
+    [
+        { "name"         : "GalacticNeighborhood" }
+    ],
+    "install"            :
+    [
+        {
+            "find"       : "AlternisKerbolRekerjiggered",
+            "install_to" : "GameData",
+        }
+    ]
+}

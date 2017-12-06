@@ -1,0 +1,38 @@
+{
+    "spec_version"       : "v1.4",
+    "identifier"         : "GN-Helios",
+    "name"               : "[GN] Helios Star System",
+    "abstract"           : "Galactic Neighborhood: Helios Star System\n\nA G2 V main sequence yellow dwarf.\nThis star hosts Outer Planets Mod.",
+    "author"             : [ "CaptRobau", "Eudae55", "Galileo88" ],
+    "license"            : "CC-BY-NC-SA-4.0",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Galileo88/OPM_Galileo",
+    "resources"          :
+    {
+        "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
+    },
+    "depends"            :
+    [
+        { "name"         : "GalacticNeighborhood" },
+        { "name"         : "CommunityTerrainTexturePack" }
+    ],
+    "install"            :
+    [
+        {
+            "find"       : "KopernicusConfigs",
+            "install_to" : "GameData/OPM",
+        },
+        {
+            "find"       : "Localization",
+            "install_to" : "GameData/OPM",
+        },
+        {
+            "find"       : "OPM_Textures",
+            "install_to" : "GameData/OPM",
+        },
+        {
+            "find"       : "OuterPlanetsMod-Galileo.version", "find_matches_files" : true,
+            "install_to" : "GameData/OPM"
+        }
+    ]
+}

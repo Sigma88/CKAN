@@ -1,22 +1,12 @@
 {
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Requirements",
-    "$kref"              : "#/ckan/github/Kopernicus/Kopernicus",
-    "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Requirements",
     "abstract"           : "Mod required by Galactic Neighborhood to function properly.",
+    "author"             : [ "BryceSchroeder", "Teknoman117", "Thomas P.", "NathanKell", "KillAshley", "Gravitasi", "KCreator", "Sigma88" ],
     "license"            : "LGPL-3.0",
-    "author"             :
-    [
-        "BryceSchroeder",
-        "Teknoman117",
-        "Thomas P.",
-        "NathanKell",
-        "KillAshley",
-        "Gravitasi",
-        "KCreator",
-        "Sigma88"
-    ],
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Kopernicus/Kopernicus",
     "resources"          :
     {
         "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"

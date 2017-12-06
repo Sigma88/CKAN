@@ -1,12 +1,12 @@
 {
     "spec_version"       : "v1.4",
     "identifier"         : "GalacticNeighborhood",
-    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
-    "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Galactic Neighborhood",
     "abstract"           : "Allows to explore the galactic neighborhood of the Kerbal sun.",
-    "license"            : "restricted",
     "author"             : "Sigma88",
+    "license"            : "restricted",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
     "resources"          :
     {
         "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"

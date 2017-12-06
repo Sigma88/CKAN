@@ -1,19 +1,19 @@
 {
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Kpol",
-    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
-    "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Kpol Star System",
     "abstract"           : "Galactic Neighborhood: Kpol Star System\n\nKerbin's south pole star, a Yellow Supergiant 4.5 times more massive and 40 times larger than the Sun.",
-    "license"            : "restricted",
     "author"             : "Sigma88",
+    "license"            : "restricted",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
     "resources"          :
     {
         "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
     },
     "depends"            :
     [
-        { "name"         : "GalacticNeighborhood"}
+        { "name"         : "GalacticNeighborhood" }
     ],
     "install"            :
     [

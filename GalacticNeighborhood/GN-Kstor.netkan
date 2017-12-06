@@ -1,19 +1,19 @@
 {
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Kstor",
-    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
-    "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] K-stor Star System",
     "abstract"           : "Galactic Neighborhood: K-stor Star System\n\nA complex multiple star system made up of six individual stars grouped into three binary systems.",
-    "license"            : "restricted",
     "author"             : "Sigma88",
+    "license"            : "restricted",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
     "resources"          :
     {
         "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
     },
     "depends"            :
     [
-        { "name"         : "GalacticNeighborhood"}
+        { "name"         : "GalacticNeighborhood" }
     ],
     "install"            :
     [

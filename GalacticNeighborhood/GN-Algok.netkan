@@ -1,19 +1,19 @@
 {
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Algok",
-    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
-    "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Algok Star System",
     "abstract"           : "Galactic Neighborhood: Algok Star System\n\nA peculiar binary star system where an orange subgiant orbits a blue-white main sequence star.",
-    "license"            : "restricted",
     "author"             : "Sigma88",
+    "license"            : "restricted",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
     "resources"          :
     {
         "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
     },
     "depends"            :
     [
-        { "name"         : "GalacticNeighborhood"}
+        { "name"         : "GalacticNeighborhood" }
     ],
     "install"            :
     [

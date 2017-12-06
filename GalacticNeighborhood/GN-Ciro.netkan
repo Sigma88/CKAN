@@ -1,19 +1,19 @@
 {
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Ciro",
-    "$kref"              : "#/ckan/github/Galileo88/Galileos-Planet-Pack",
-    "$vref"              : "#/ckan/ksp-avc",
     "name"               : "[GN] Ciro Star System",
     "abstract"           : "Galactic Neighborhood: Ciro Star System\n\nA G5 V main sequence yellow dwarf.\nThis star hosts Galileo's Planet Pack.",
-    "license"            : "CC-BY-NC-ND",
     "author"             : "Galileo88",
+    "license"            : "CC-BY-NC-ND",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Galileo88/Galileos-Planet-Pack",
     "resources"          :
     {
         "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
     },
     "depends"            :
     [
-        { "name"         : "GalacticNeighborhood"},
+        { "name"         : "GalacticNeighborhood" },
         { "name"         : "GPPTextures" }
     ],
     "install"            :
@@ -28,7 +28,6 @@
                 "GPP_KSC++",
                 "GPP_Renamer",
                 "GPP_Replacements",
-                "GPP_Resources",
                 "GPP_Scatterer",
                 "GPP_Skybox",
                 "GPP_SuitProgression",
@@ -40,9 +39,8 @@
             ]
         },
         {
-            "find"       : "GPP/GPP_Configs/GPP_KopernicusSettings.cfg",
-            "install_to" : "GameData/GPP/GPP_Configs",
-            "find_matches_files" : true
+            "find"       : "GPP/GPP_Configs/GPP_KopernicusSettings.cfg", "find_matches_files" : true,
+            "install_to" : "GameData/GPP/GPP_Configs"
         }
     ]
 }
