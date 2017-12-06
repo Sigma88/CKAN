@@ -1,0 +1,26 @@
+{
+    "spec_version"       : "v1.4",
+    "identifier"         : "GN-Tyfoon",
+    "name"               : "[GN] Tyfoon Star System",
+    "abstract"           : "Galactic Neighborhood: Tyfoon Star System\n\nAn O8 IV blue subgiant.\nThis star system hosts Asclepius and Kronkus.",
+    "author"             : "Sigma88",
+    "license"            : "restricted",
+    "$vref"              : "#/ckan/ksp-avc",
+    "$kref"              : "#/ckan/github/Sigma88/Galactic-Neighborhood",
+    "resources"          :
+    {
+        "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/116058-GalacticNeighborhood/"
+    },
+    "depends"            :
+    [
+        { "name"         : "GalacticNeighborhood" },
+        { "name"         : "GN-TyfoonExtra" }
+    ],
+    "install"            :
+    [
+        {
+            "find"       : "Kronkus_PlanetFix.cfg", "find_matches_files" : true,
+            "install_to" : "GameData/GalacticNeighborhood/Configs/PlanetPacks/AsclepiusSystem"
+        }
+    ]
+}

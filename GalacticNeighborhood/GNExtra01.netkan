@@ -1,0 +1,19 @@
+{
+    "spec_version"       : "v1.4",
+    "identifier"         : "GNExtra01",
+    "name"               : "GN_Extra_01",
+    "abstract"           : "Dependancy for Tyfon Star System. (Asclepius)",
+    "author"             : "MrChumley",
+    "license"            : "CC-BY-NC-SA-4.0",
+    "version"            : "v3.0",
+    "kspversion"         : "any",
+    "$kref"              : "#/ckan/github/MrChumley/Asclepius",
+    "provides"           : [ "GN-TyfoonExtra" ],
+    "install"            :
+    [
+        {
+            "find"       : "Asclepius",
+            "install_to" : "GameData",
+        }
+    ]
+}

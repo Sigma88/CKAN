@@ -42,7 +42,11 @@
         {
             "find"       : "GalacticNeighborhood",
             "install_to" : "GameData",
-            "filter"     : "StarSystems"
+            "filter"     :
+            [
+                "StarSystems",
+                "Kronkus_PlanetFix.cfg"
+            ],
         }
     ]
 }

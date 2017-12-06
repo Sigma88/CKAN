@@ -1,0 +1,19 @@
+{
+    "spec_version"       : "v1.4",
+    "identifier"         : "GNExtra02",
+    "name"               : "GN_Extra_02",
+    "abstract"           : "Dependancy for Tyfon Star System. (Kronkus)",
+    "author"             : "MrChumley",
+    "license"            : "CC-BY-NC-SA-4.0",
+    "version"            : "v3.0",
+    "kspversion"         : "any",
+    "$kref"              : "#/ckan/github/MrChumley/Kronkus",
+    "provides"           : [ "GN-TyfoonExtra" ],
+    "install"            :
+    [
+        {
+            "find"       : "Kronkus",
+            "install_to" : "GameData",
+        }
+    ]
+}
