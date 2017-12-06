@@ -2,7 +2,7 @@
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Alternis",
     "name"               : "[GN] Alternis Star System",
-    "abstract"           : "Galactic Neighborhood: Alternis Star System\n\nA K0 V main sequence orange dwarf.\nThis star hosts Alternis Kerbol Rekerjiggered.",
+    "abstract"           : "Galactic Neighborhood: Alternis Star System\n\nA K0 V main sequence orange dwarf.\nThis star system hosts Alternis Kerbol Rekerjiggered.",
     "author"             : "GregroxMun",
     "license"            : "CC-BY-NC-4.0",
     "version"            : "2.2.0",
