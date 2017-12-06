@@ -2,7 +2,7 @@
     "spec_version"       : "v1.4",
     "identifier"         : "GN-Helios",
     "name"               : "[GN] Helios Star System",
-    "abstract"           : "Galactic Neighborhood: Helios Star System\n\nA G2 V main sequence yellow dwarf.\nThis star hosts Outer Planets Mod.",
+    "abstract"           : "Galactic Neighborhood: Helios Star System\n\nA G2 V main sequence yellow dwarf.\nThis star system hosts Outer Planets Mod.",
     "author"             : [ "CaptRobau", "Eudae55", "Galileo88" ],
     "license"            : "CC-BY-NC-SA-4.0",
     "$vref"              : "#/ckan/ksp-avc",
