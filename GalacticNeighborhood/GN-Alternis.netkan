@@ -21,6 +21,11 @@
         {
             "find"       : "AlternisKerbolRekerjiggered",
             "install_to" : "GameData",
+            "filter"     : "ModCompatibility"
+        },
+        {
+            "find"       : "ModCompatibility/GalacticNeighborhood.cfg", "find_matches_files" : true,
+            "install_to" : "GameData/AlternisKerbolRekerjiggered/ModCompatibility"
         }
     ]
 }
