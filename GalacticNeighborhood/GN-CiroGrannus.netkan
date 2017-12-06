@@ -1,8 +1,8 @@
 {
     "spec_version"       : "v1.4",
-    "identifier"         : "GN-Ciro",
-    "name"               : "[GN] Ciro Star System",
-    "abstract"           : "Galactic Neighborhood: Ciro Star System\n\nA G5 V main sequence yellow dwarf.\nThis star hosts Galileo's Planet Pack.",
+    "identifier"         : "GN-CiroGrannus",
+    "name"               : "[GN] Ciro-Grannus Star System",
+    "abstract"           : "Galactic Neighborhood: Ciro-Grannus Star System\n\nA G5 V main sequence yellow dwarf orbited by an M0 V main sequence red dwarf.\nThis star system hosts Galileo's Planet Pack.",
     "author"             : "Galileo88",
     "license"            : "CC-BY-NC-ND",
     "$vref"              : "#/ckan/ksp-avc",
