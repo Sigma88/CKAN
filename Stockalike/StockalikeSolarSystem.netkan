@@ -1,7 +1,7 @@
 {
 	"spec_version": "v1.4",
 	"identifier": "StockalikeSolarSystem",
-	"$kref": "#/ckan/github/Sigma88/Stockalike",
+	"$kref": "#/ckan/github/Sigma88/Stockalike/asset_match/Stockalike*?\\.zip",
 	"$vref": "#/ckan/ksp-avc",
 	"name": "Stockalike Solar System",
 	"abstract": "This mod rearranges bodies from other mods to reproduce the Solar System but with a Kerbal style.",
