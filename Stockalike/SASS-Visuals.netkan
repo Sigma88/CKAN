@@ -1,0 +1,26 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "SASS-Visuals",
+	"name": "Stock-alike Solar System Visuals",
+	"abstract": "Visual Pack for Stock-alike Solar System",
+	"author": "Sigma88",
+	"license": "restricted",
+	"$kref": "#/ckan/github/Sigma88/Stockalike/asset_match/Visuals.*?\\.zip",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131405-SASS/"
+	},
+	"depends": [
+		{ "name": "StockalikeSolarSystem" }
+	],
+	"recommends": [
+		{ "name": "EnvironmentalVisualEnhancements-HR" },
+		{ "name": "Scatterer-config" }
+	],
+	"install": [
+		{
+			"find": "StockalikeSolarSystemVisuals",
+			"install_to": "GameData"
+		}
+	]
+}
