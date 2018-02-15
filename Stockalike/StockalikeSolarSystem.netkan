@@ -12,7 +12,7 @@
 	},
 	"depends": [
 		{ "name": "ModuleManager" },
-		{ "name": "Kopernicus", "max_version": "release-1.3.1.3" },
+		{ "name": "Kopernicus", "version_max": "release-1.3.1.3" },
 		{ "name": "SigmaDimensions" },
 		{ "name": "SASS-DRP" },
 		{ "name": "SASS-NH" },
