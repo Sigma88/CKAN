@@ -8,10 +8,12 @@
 	"author": "Galileo88",
 	"license": "CC-BY-NC-SA-4.0",
 	"download": "https://github.com/Galileo88/OPM_Galileo/releases/download/1.2.4/OPM_Galileo.v1.2.4.zip",
+	"$vref": "#/ckan/ksp-avc",
 	"resources": {
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-OPMG/"
 	},
 	"depends": [
+		{ "name": "ModuleManager" },
 		{ "name": "StockalikeSolarSystem" }
 	],
 	"install": [

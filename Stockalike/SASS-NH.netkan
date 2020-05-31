@@ -12,6 +12,7 @@
 		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/102776-NH/"
 	},
 	"depends": [
+		{ "name": "ModuleManager" },
 		{ "name": "StockalikeSolarSystem" }
 	],
 	"install": [
