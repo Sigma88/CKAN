@@ -8,10 +8,12 @@
 	"author": "Sigma88",
 	"license": "restricted",
 	"download": "https://github.com/Sigma88/Sigma-EveRecolor/releases/download/v1.2.4/Sigma-EveRecolor.v1.2.4.zip",
+	"$vref": "#/ckan/ksp-avc",
 	"resources": {
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122481-EveRecolor/"
 	},
 	"depends": [
+		{ "name": "ModuleManager" },
 		{ "name": "StockalikeSolarSystem" }
 	],
 	"install": [

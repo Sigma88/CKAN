@@ -12,6 +12,7 @@
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151632-DRP/"
 	},
 	"depends": [
+		{ "name": "ModuleManager" },
 		{ "name": "StockalikeSolarSystem" }
 	],
 	"install": [
